@@ -1,0 +1,19 @@
+h1{
+    font-size: 28px;
+    border: 1px solid rgb(78, 65, 112);
+}
+
+h4{
+    color: #ec75b7 ;
+}
+
+li{
+    color: green;
+}
+
+body{
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Starlink_G7_2_Vista_Point_Streak_5012_Desktop_v2_07f673ecd4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

@@ -1,0 +1,41 @@
+h1{
+    color: purple;
+    font-size: 28px;
+    border: 1px solid rgb(78, 65, 112);
+}
+
+h4{
+    color: #ec75b7 ;
+}
+
+.moon{
+    color: #ec75b7;
+}
+.yellow-text{
+    color: rgb(197, 197, 6);
+    font-size: 20px
+}
+.smaller-text{
+    color: blue;
+    font-size: 12px;
+
+}
+
+.bigger-text{
+    color: aqua;
+    font-size: 40px;
+}
+
+#europa-text{
+    color: rgb(11, 83, 23);
+}
+
+li{
+    color: beige;
+}
+
+body{
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Starlink_G7_2_Vista_Point_Streak_5012_Desktop_v2_07f673ecd4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

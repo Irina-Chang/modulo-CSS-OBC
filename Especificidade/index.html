@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidade</title>
+</head>
+<body>
+    
+    <h1>Especificidade no CSS</h1>
+
+    <div>
+        <p>Cada elemento, classe, id, vale pontos que são usados pelos navegadores na hora de renderizar os estilos</p>
+        <p>A pontuação é feita da seguinte maneira:</p>
+        <ul>
+            <li>Composta por 4 números (0000)</li>
+            <li>Quanto mais a esquerda, meior a relevância da pontuação</li>
+            <li>Vamos chamr esses números de (a,b,c,d)</li>
+            <li>Regra da pontuação(sobrescrevendo a herança):
+                <ul>
+                    <li>Cada elemento / pseudo elemento -> d = +1. (0,0,0,1)</li>
+                    <li class="pontoc">Cada classe /pseudo classe /atributo -> c = +1 (0,0,1,0)</li>
+                    <li class="pontoc" id="pontob">Cada id -> b = +1 (0,1,0,0)</li>
+                    <li class="pontoc" style="color: red;">Estilo inline -> a = +1 (1,0,0,0)</li>
+                </ul>
+            </li>
+        </ul>
+        <p>Exemplo de pontuação:</p>
+        <p>div#container ul li -> (0,1,0,3)</p>
+    </div>
+
+    <p>Quando ocorre um empate, o ultimo seletor adicionado será o de desempate</p>
+</body>
+</html>

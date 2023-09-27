@@ -1,0 +1,27 @@
+/* o seletor abaixo vai estilizar todos os elementos da pagina */
+/* * {
+    border: 2px solid; 
+}*/
+
+/* o seletor abaixo afeta todos os descendentes do elemento inicial*/
+li a {
+    color: red;
+}
+/*Este seletor pega apenas os filhos e não todos os seus descentendes*/
+li >a {
+    color: green;
+}
+
+/*Este seletor pega o item logo abaixo do inicial, e tudo q estiver dentro desse item*/
+h1 + div {
+    border: 2px dashed;
+}
+
+/* Este seletor vai estilizar apenas o atributo especifico do elemento inicial*/
+a[href='/link']{
+    color: palevioletred;
+}
+
+li:nth-of-type(2){
+    color: purple;
+}

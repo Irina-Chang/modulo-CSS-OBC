@@ -1,28 +1,32 @@
-.post-container{
-    background-color: #fffafa;
-    margin: 0 200px auto 200px;
-   
-}
-
-.post{
-    text-align: left;
-    padding: 20px auto 20px auto;
-    margin: 0 50px 50px 50px;
+body{
+    margin: 0px;
 }
 
 h1{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
 }
 
-.date{
+.post-container{
+    background-color: #fffafa;
+    width: 70%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+   
+}
+
+.post-container .post{
+    padding-top: 20px;
+    margin: 0 50px 50px 50px;
+}
+
+
+.post-container .date{
     color: #008080;
-    font-family: Roboto;
-    font-weight: 600;
+    font-family: 'Roboto';
 }
 
-.post-content{
-    text-align: justify;
-    font-family: 'Open-Sans';
-    font-weight: 600;
+.post-container div .post-content{
+    width: 90%;
+    font-family: 'Open Sans', san-serif;
+    font-weight: normal;
 }
-
